@@ -2,6 +2,8 @@ package lru
 
 import "container/list"
 
+// 缓存底层逻辑算法
+
 type Cache struct {
 	maxBytes int64
 	nBytes   int64
